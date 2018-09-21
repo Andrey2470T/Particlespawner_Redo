@@ -9,7 +9,7 @@ It adds few new features as:
 # Documentation #
 
 ## misc.create_particle_spawner(particlespawner_amount, player, particles_spawners_def, particlespawner_id)
-  --Adds particlespawner.
+  Adds particlespawner.
   
   # Arguments:
   particlespawner_amount -- amount of particlespawners that may be spawned in different places 
@@ -47,20 +47,20 @@ It adds few new features as:
  
  
  ## misc.is_player_has_any_particlespawners(player)
-   --Defines whether a player has any particlespawners (returns boolean)
+   Defines whether a player has any particlespawners (returns boolean)
    
  ## misc.is_player_has_the_particlespawner(player, particlespawner_id)
-   --Defines whether a player has certain particlespawner (returns boolean)
+   Defines whether a player has certain particlespawner (returns boolean)
    
  ## misc.stop_particle_spawner(player, particlespawner_id)
-   --Stops a particlespawner (makes it from active_mode to stop_mode) 
+   Stops a particlespawner (makes it from active_mode to stop_mode) 
    # Note:  it will NOT remove actual player_meta_data, just change a mode
  
  ## misc.continue_particle_spawner(player, particlespawner_id)
-   --Continues a particlespawner (makes it from stop_mode to active_mode)
+   Continues a particlespawner (makes it from stop_mode to active_mode)
    
  ## misc.remove_particle_spawner(player, particlespawner_id)
-   --Removes a particlespawner (with player_meta_data)
+   Removes a particlespawner (with player_meta_data)
    
         
        
