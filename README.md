@@ -1,4 +1,4 @@
-# Particlespawner_Redo
+# Particlespawner_Redo v0.1
 This is a library that modifies standard minetest particlespawner API (WIP very)
 
 It adds few new features as:
