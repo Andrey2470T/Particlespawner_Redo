@@ -11,7 +11,7 @@ It adds few new features as:
 ## misc.create_particle_spawner(particlespawner_amount, player, particles_spawners_def, particlespawner_id)
   Adds particlespawner.
   
-  # Arguments:
+  ### Arguments:
   particlespawner_amount -- amount of particlespawners that may be spawned in different places 
   player -- PlayerRef
   particles_spawners_def -- table with tables of each particlespawners:
