@@ -6,9 +6,9 @@ It adds few new features as:
 2. Particlespawners will stay after restarting of the game if it has not been expired.
 3. More functions that implementing removal, stopping, continuing, checking_for_id and etc.
 
-### Documentation ###
+# Documentation #
 
-# misc.create_particle_spawner(particlespawner_amount, player, particles_spawners_def, particlespawner_id)
+## misc.create_particle_spawner(particlespawner_amount, player, particles_spawners_def, particlespawner_id)
   --Adds particlespawner.
   
   # Arguments:
@@ -46,20 +46,20 @@ It adds few new features as:
    # Note:  name parameters as time_params, vel_params, exptime_params must NOT be, just tables with values!
  
  
- # misc.is_player_has_any_particlespawners(player)
+ ## misc.is_player_has_any_particlespawners(player)
    --Defines whether a player has any particlespawners (returns boolean)
    
- # misc.is_player_has_the_particlespawner(player, particlespawner_id)
+ ## misc.is_player_has_the_particlespawner(player, particlespawner_id)
    --Defines whether a player has certain particlespawner (returns boolean)
    
- # misc.stop_particle_spawner(player, particlespawner_id)
+ ## misc.stop_particle_spawner(player, particlespawner_id)
    --Stops a particlespawner (makes it from active_mode to stop_mode) 
    # Note:  it will NOT remove actual player_meta_data, just change a mode
  
- # misc.continue_particle_spawner(player, particlespawner_id)
+ ## misc.continue_particle_spawner(player, particlespawner_id)
    --Continues a particlespawner (makes it from stop_mode to active_mode)
    
- # misc.remove_particle_spawner(player, particlespawner_id)
+ ## misc.remove_particle_spawner(player, particlespawner_id)
    --Removes a particlespawner (with player_meta_data)
    
         
